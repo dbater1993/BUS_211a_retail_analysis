@@ -4,3 +4,4 @@ David Liu
 --Let's learn SQL.
 SELECT COUNT(DISTINCT*)
 FROM Table1
+WRONG ONE
