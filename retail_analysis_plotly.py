@@ -38,7 +38,7 @@ def display_sales_ranking(data):
         print(f"{kind_of_business}: Best Period: {best_period}, Worst Period: {worst_period}, Total Sales: {total_sale:,.2f}, Average Annual Sales: {average_annual_sales:,.2f}, Average Period Sales: {average_period_sales:,.2f}")
 
 # Load data
-df = pd.read_csv(r'C:\Users\dbate\OneDrive\Desktop\Brandeis MBA\BUS 211 Foundations of Data Analytics\us_retail_sales.csv')
+df = pd.read_csv() # removed file insert us sales retail data.
 df['sales_month'] = pd.to_datetime(df['sales_month'])
 
 while True:
